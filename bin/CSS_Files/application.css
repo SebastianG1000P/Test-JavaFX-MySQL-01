@@ -1,0 +1,15 @@
+/* JavaFX CSS - Leave this comment until you have at least created one rule which uses -fx-Property */
+
+#anPane {
+	-fx-background-image:url("../Images/milky-way-2695569_640.jpg");
+	-fx-background-size:cover;
+}
+
+#register, #login {
+	-fx-background-color:#fff;
+}
+
+#loginForm {
+	-fx-background-color:#9999ff;
+	-fx-opacity:0.8;
+}
