@@ -48,6 +48,8 @@ public class SignUpController implements Initializable {
 		password.setStyle("-fx-text-inner-color:#4b5461;");
 	}
 		
+	
+	// Ir a la pantalla para abrir sesión.
 	@FXML
 	public void goLogin(ActionEvent event) throws IOException {
 		
@@ -58,6 +60,13 @@ public class SignUpController implements Initializable {
 		login.setScene(scene);
 		login.show();
 	}
+	
+	// Creación de nueva cuenta.
+	// TODO: Validar que no se pueda dejar campos vacíos.
+	// TODO: Validar que el email tenga formato correcto.
+	// TODO: Validar que el email sea único.
+	// TODO: Validar que el usuario deba verificar la contraseña escribiéndola una segunda vez.
+	// TODO: Verificaciones varias.
 	
 	@FXML
 	public void signUp(ActionEvent event) throws ClassNotFoundException, SQLException {

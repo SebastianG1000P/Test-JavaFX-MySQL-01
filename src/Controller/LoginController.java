@@ -58,6 +58,14 @@ public class LoginController {
     	ResultSet rs = pst.executeQuery();
     	int count=0;
     	
+    	
+    	/*
+    	 * Sebastián: Agregué el siguiente bloque porque por algún motivo 
+    	 * el método no estaba ingresando al bucle while,
+    	 * así que quería revisar qué datos estaban siendo procesados.
+    	 * El error se resolvió por obra de los enanitos de Java, así que ya no es necesario. 
+    	 */
+    	 
     	System.out.println(count); // Revisar que el conteo sea correcto.
     	System.out.println(str); // Revisar que la consulta sea correcta:
     	System.out.println(username.getText());
@@ -71,7 +79,6 @@ public class LoginController {
     		System.out.println("Dentro del while"); // Marcar visualmente que se entró al ciclo.
     	}
     	
-    	//TODO : Corregir: Usuarie no puede ingresar.
     	System.out.println("******"); // Marcar visualmente el fin de un intento de ingreso.
     	
     	/* 
@@ -88,7 +95,6 @@ public class LoginController {
     		
     		Stage home = new Stage();
     		Parent root = FXMLLoader.load(getClass().getResource("/FXML_Files/HomePage.fxml"));
-    		// Parent root = FXMLLoader.load(getClass().getResource("/FXML_Files/SignUP.fxml"));
     		home.setScene(new Scene(root));
     		home.show();
     		
