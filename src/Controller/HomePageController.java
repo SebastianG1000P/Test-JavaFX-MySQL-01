@@ -63,6 +63,11 @@ public class HomePageController implements Initializable {
 	    	
 	    }
 	    
+	    /*
+	     * El método initialize, cuando está presente, se ejecuta al abrir una ventana de JavaFX.
+	     * En initialize se puede ejecutar instrucciones para preparar la ventana
+		 * antes de que el usuario interactúe con ella.
+		 */ 
 	    
 	    @Override
 		 public void initialize(URL arg0, ResourceBundle arg1) {

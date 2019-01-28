@@ -108,6 +108,8 @@ public class LoginController {
     		
     }
 
+    // Método para ir a la ventana de creación de nuevo registro.
+    
     @FXML
     void createRegister(ActionEvent event) throws IOException {
 
