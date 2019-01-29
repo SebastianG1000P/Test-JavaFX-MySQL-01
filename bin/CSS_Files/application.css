@@ -5,11 +5,21 @@
 	-fx-background-size:cover;
 }
 
+.background {
+	-fx-background-image:url("../Images/milky-way-2695569_640.jpg");
+	-fx-background-size:cover;
+}
+
 #register, #login {
 	-fx-background-color:#fff;
 }
 
 #loginForm {
+	-fx-background-color:#9999ff;
+	-fx-opacity:0.8;
+}
+
+.form {
 	-fx-background-color:#9999ff;
 	-fx-opacity:0.8;
 }
