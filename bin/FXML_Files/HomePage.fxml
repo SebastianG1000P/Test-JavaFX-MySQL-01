@@ -8,17 +8,17 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@../CSS_Files/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomePageController">
    <children>
-      <Pane layoutX="31.0" layoutY="29.0" prefHeight="343.0" prefWidth="539.0" styleClass="form" stylesheets="@../CSS_Files/application.css">
+      <Pane layoutX="31.0" layoutY="29.0" prefHeight="343.0" prefWidth="539.0" styleClass="form">
          <children>
-            <Button fx:id="closeSession" layoutX="232.0" layoutY="298.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="31.0" prefWidth="57.0" text="Salir" />
+            <Button fx:id="closeSession" cancelButton="true" layoutX="232.0" layoutY="298.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="31.0" prefWidth="57.0" text="Salir" />
             <TableView fx:id="table" layoutX="20.0" layoutY="89.0" prefHeight="200.0" prefWidth="494.0">
               <columns>
-                <TableColumn fx:id="fullname" prefWidth="257.0" text="Nombre completo" />
-                  <TableColumn fx:id="email" minWidth="5.0" prefWidth="138.0" text="Email" />
-                <TableColumn fx:id="password" prefWidth="125.0" text="Contraseña" />
+                <TableColumn fx:id="fullname" prefWidth="192.0" text="Nombre completo" />
+                  <TableColumn fx:id="email" minWidth="5.0" prefWidth="152.0" text="Email" />
+                <TableColumn fx:id="password" prefWidth="176.0" text="Contraseña" />
               </columns>
             </TableView>
-            <Button fx:id="show" layoutX="203.0" layoutY="31.0" mnemonicParsing="false" onAction="#showData" style="-fx-border-color: #000; -fx-border-radius: 15; -fx-border-width: 1;" text="Mostrar datos" />
+            <Button fx:id="show" defaultButton="true" layoutX="203.0" layoutY="31.0" mnemonicParsing="false" onAction="#showData" style="-fx-border-color: #000; -fx-border-radius: 15; -fx-border-width: 1;" text="Mostrar datos" />
          </children>
       </Pane>
    </children>

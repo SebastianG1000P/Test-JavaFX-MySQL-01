@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="anPane" fx:id="anPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@../CSS_Files/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+<AnchorPane id="anPane" fx:id="anPane" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@../CSS_Files/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
    <children>
-      <Pane fx:id="loginForm" layoutX="58.0" layoutY="55.0" prefHeight="291.0" prefWidth="484.0">
+      <Pane fx:id="loginForm" layoutX="58.0" layoutY="55.0" prefHeight="291.0" prefWidth="484.0" styleClass="form">
          <children>
             <Label layoutX="209.0" layoutY="28.0" text="Login">
                <font>
@@ -19,9 +19,9 @@
             </Label>
             <TextField fx:id="username" layoutX="149.0" layoutY="74.0" promptText="Ingresa tu email." />
             <PasswordField fx:id="password" layoutX="148.0" layoutY="130.0" promptText="Ingresa tu contraseña." />
-            <Button layoutX="161.0" layoutY="178.0" mnemonicParsing="false" text="¿Olvidaste tu cuenta?" />
-            <Button fx:id="register" layoutY="229.0" mnemonicParsing="false" onAction="#createRegister" prefHeight="62.0" prefWidth="239.0" text="Registrarse" />
-            <Button fx:id="login" layoutX="239.0" layoutY="229.0" mnemonicParsing="false" onAction="#createLogin" prefHeight="62.0" prefWidth="246.0" text="Ingresar" />
+            <Button fx:id="forgotAccount" disable="true" layoutX="161.0" layoutY="178.0" mnemonicParsing="false" text="¿Olvidaste tu cuenta?" />
+            <Button fx:id="register" layoutX="242.0" layoutY="250.0" mnemonicParsing="false" onAction="#createRegister" prefHeight="40.0" prefWidth="242.0" styleClass="secondaryButton" text="Registrarse" />
+            <Button fx:id="login" defaultButton="true" layoutY="250.0" mnemonicParsing="false" onAction="#createLogin" prefHeight="40.0" prefWidth="242.0" styleClass="defaultButton" text="Ingresar" />
          </children></Pane>
    </children>
 </AnchorPane>

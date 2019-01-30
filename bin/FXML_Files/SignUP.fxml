@@ -57,12 +57,12 @@
                   <Insets right="25.0" />
                </opaqueInsets>
             </CheckBox>
-            <Button fx:id="signup" layoutX="25.0" layoutY="359.0" mnemonicParsing="false" onAction="#signUp" text="Registrar">
+            <Button fx:id="signup" defaultButton="true" layoutX="25.0" layoutY="359.0" mnemonicParsing="false" onAction="#signUp" styleClass="defaultButton" text="Registrar">
                <opaqueInsets>
                   <Insets right="25.0" />
                </opaqueInsets>
             </Button>
-            <Button fx:id="login" layoutX="187.0" layoutY="359.0" mnemonicParsing="false" onAction="#goLogin" text="Ingresar">
+            <Button fx:id="login" layoutX="187.0" layoutY="359.0" mnemonicParsing="false" onAction="#goLogin" styleClass="secondaryButton" text="Ingresar">
                <opaqueInsets>
                   <Insets right="25.0" />
                </opaqueInsets>

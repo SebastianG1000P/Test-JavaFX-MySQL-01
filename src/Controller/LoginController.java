@@ -3,6 +3,7 @@ package Controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -11,10 +12,12 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ResourceBundle;
 
 import AlertMessage.Message;
 import DBConnection.connection;
@@ -27,12 +30,16 @@ public class LoginController {
     @FXML private Button register;
     @FXML private Button login;
     
+    @FXML private Button forgotAccount;  /* Por ahora no se usa el botón "¿Olvidaste tu cuenta?", 
+    así que lo dejaremos inactivo al inicializar la ventana. */
+    
     Connection con;
 
     connection conClass = new connection();
     
     private PreparedStatement pst;
 
+        
     @FXML
     void createLogin(ActionEvent event) throws ClassNotFoundException, SQLException, IOException {
 
@@ -123,4 +130,5 @@ public class LoginController {
     	
     }
 
+   
 }

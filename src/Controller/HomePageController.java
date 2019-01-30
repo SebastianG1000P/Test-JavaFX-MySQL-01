@@ -41,7 +41,8 @@ public class HomePageController implements Initializable {
 	    
 	    connection conObj = new connection();
 
-	    @FXML void showData(ActionEvent event) throws ClassNotFoundException, SQLException {
+	    @FXML
+	    void showData(ActionEvent event) throws ClassNotFoundException, SQLException {
 	    	
 	    	con = conObj.getConnection();
 	    	
