@@ -13,7 +13,16 @@ Fuente: https://www.udemy.com/learn-javafx-tutorials-from-beginners-level/
 
 ----------
 
-V1.0
+V1.01
+
+	Cambios menores principalmente de apariencia.
+	
+	- Aplicar hoja de estilo css a ventanas principal y de registro.
+	- Establecer botones por defecto y botón para cancelar.
+	- Desactivar el botón "¿Olvidaste tu cuenta?" en ventana de ingreso, ya que no está en uso.
+
+
+V1.00
 
 	Primera versión funcional.
 	

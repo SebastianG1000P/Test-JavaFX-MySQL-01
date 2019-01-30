@@ -1,22 +1,25 @@
 /* JavaFX CSS - Leave this comment until you have at least created one rule which uses -fx-Property */
 
-#anPane {
-	-fx-background-image:url("../Images/milky-way-2695569_640.jpg");
-	-fx-background-size:cover;
-}
+/*
+*	# = id
+*	. = class
+*/
 
 .background {
 	-fx-background-image:url("../Images/milky-way-2695569_640.jpg");
 	-fx-background-size:cover;
 }
 
-#register, #login {
-	-fx-background-color:#fff;
+.defaultButton {
+	/* -fx-background-color:#7777dd; */
+	/* -fx-border-color:#7777dd; */
+	/* -fx-border-width:4; */
+	-fx-font-weight:bolder;
+	-fx-opacity:0.9;
 }
 
-#loginForm {
-	-fx-background-color:#9999ff;
-	-fx-opacity:0.8;
+.secondaryButton {
+	-fx-opacity:0.7;
 }
  
 .form {

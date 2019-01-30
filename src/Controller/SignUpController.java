@@ -21,8 +21,7 @@ import javafx.stage.Stage;
 
 import AlertMessage.Message;
 
-
-//TODO : Validar que no se pueda crear un registro con email, nombre o contraseña vacío.
+ 
 
 public class SignUpController implements Initializable {
 
@@ -66,7 +65,7 @@ public class SignUpController implements Initializable {
 	// TODO: Validar que el email tenga formato correcto.
 	// TODO: Validar que el email sea único.
 	// TODO: Validar que el usuario deba verificar la contraseña escribiéndola una segunda vez.
-	// TODO: Verificaciones varias.
+	// TODO: Validaciones varias.
 	
 	@FXML
 	public void signUp(ActionEvent event) throws ClassNotFoundException, SQLException {
