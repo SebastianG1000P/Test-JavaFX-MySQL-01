@@ -12,7 +12,7 @@
 
 <AnchorPane prefHeight="502.0" prefWidth="365.0" styleClass="background" stylesheets="@../CSS_Files/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignUpController">
    <children>
-      <Pane layoutX="23.0" layoutY="41.0" prefHeight="428.0" prefWidth="304.0" styleClass="form">
+      <Pane layoutX="31.0" layoutY="37.0" prefHeight="428.0" prefWidth="304.0" styleClass="form">
          <children>
             <Label layoutX="25.0" layoutY="15.0" text="Registro">
                <font>
@@ -57,12 +57,12 @@
                   <Insets right="25.0" />
                </opaqueInsets>
             </CheckBox>
-            <Button fx:id="signup" defaultButton="true" layoutX="25.0" layoutY="359.0" mnemonicParsing="false" onAction="#signUp" styleClass="defaultButton" text="Registrar">
+            <Button fx:id="signup" defaultButton="true" layoutY="387.0" mnemonicParsing="false" onAction="#signUp" prefHeight="40.0" prefWidth="152.0" styleClass="defaultButton" text="Registrar">
                <opaqueInsets>
                   <Insets right="25.0" />
                </opaqueInsets>
             </Button>
-            <Button fx:id="login" layoutX="187.0" layoutY="359.0" mnemonicParsing="false" onAction="#goLogin" styleClass="secondaryButton" text="Ingresar">
+            <Button fx:id="login" layoutX="151.0" layoutY="387.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="40.0" prefWidth="152.0" styleClass="secondaryButton" text="Ingresar">
                <opaqueInsets>
                   <Insets right="25.0" />
                </opaqueInsets>
